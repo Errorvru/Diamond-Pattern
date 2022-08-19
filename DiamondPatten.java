@@ -4,9 +4,7 @@ public class DiamondPattern
 public static void main(String args[])
 {
 int n, i, j, space = 1;
-System.out.print("Enter the number of rows: ");
-Scanner s = new Scanner(System.in);
-n = s.nextInt();
+n = 5;
 space = n - 1;
 for (j = 1; j<= n; j++)
 {
